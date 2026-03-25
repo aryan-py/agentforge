@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ts_001",
+    "description": "Calculate compound interest on $10,000 at 5% annually for 10 years",
+    "domain": "finance",
+    "job_type": "calculation",
+    "must_include_tools": ["calculator"],
+    "must_not_include": []
+  },
+  {
+    "id": "ts_002",
+    "description": "Find the latest news about artificial intelligence regulations in the EU",
+    "domain": "technology",
+    "job_type": "research",
+    "must_include_tools": ["web_search"],
+    "must_not_include": []
+  },
+  {
+    "id": "ts_003",
+    "description": "Read the quarterly report from data/q3_report.pdf and summarize key metrics",
+    "domain": "finance",
+    "job_type": "document_analysis",
+    "must_include_tools": ["file_reader"],
+    "must_not_include": []
+  }
+]

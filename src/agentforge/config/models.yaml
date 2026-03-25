@@ -1,0 +1,33 @@
+# LLM pricing table (per 1M tokens, USD)
+# Used for cost tracking in observability module
+
+models:
+  claude-opus-4-6:
+    input_per_1m: 15.00
+    output_per_1m: 75.00
+    provider: anthropic
+
+  claude-sonnet-4-6:
+    input_per_1m: 3.00
+    output_per_1m: 15.00
+    provider: anthropic
+
+  claude-haiku-4-5-20251001:
+    input_per_1m: 0.80
+    output_per_1m: 4.00
+    provider: anthropic
+
+  gpt-4o:
+    input_per_1m: 5.00
+    output_per_1m: 15.00
+    provider: openai
+
+  gpt-4o-mini:
+    input_per_1m: 0.15
+    output_per_1m: 0.60
+    provider: openai
+
+  text-embedding-3-small:
+    input_per_1m: 0.02
+    output_per_1m: 0.00
+    provider: openai

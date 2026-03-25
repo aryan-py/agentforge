@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rg_001",
+    "description": "Generate a market analysis report for the electric vehicle industry in 2025",
+    "domain": "business",
+    "job_type": "report_generation",
+    "expected_skills": ["market research", "data analysis", "report writing"],
+    "expected_tool_types": ["web search", "file writer"],
+    "min_quality_score": 0.65
+  },
+  {
+    "id": "rg_002",
+    "description": "Write a technical report comparing PostgreSQL and MongoDB for a high-traffic web application",
+    "domain": "engineering",
+    "job_type": "technical_report",
+    "expected_skills": ["database knowledge", "performance analysis", "technical writing"],
+    "expected_tool_types": ["web search", "file writer"],
+    "min_quality_score": 0.65
+  },
+  {
+    "id": "rg_003",
+    "description": "Create a financial summary report for Q3 2025 showing revenue trends",
+    "domain": "finance",
+    "job_type": "financial_report",
+    "expected_skills": ["financial analysis", "data visualization", "reporting"],
+    "expected_tool_types": ["calculator", "file writer", "web search"],
+    "min_quality_score": 0.65
+  }
+]

@@ -1,0 +1,72 @@
+# ── Environment & secrets ──────────────────────────────────────────────────────
+.env
+*.env.local
+*.env.*.local
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── uv ─────────────────────────────────────────────────────────────────────────
+# Keep uv.lock committed (reproducible installs)
+# .python-version is fine to commit
+
+# ── Testing & coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ── Linting ────────────────────────────────────────────────────────────────────
+.ruff_cache/
+.mypy_cache/
+
+# ── Research cache (generated at runtime) ─────────────────────────────────────
+.cache/
+
+# ── Logs (generated at runtime) ───────────────────────────────────────────────
+logs/
+*.log
+
+# ── IDE ────────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Streamlit ──────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Docker ─────────────────────────────────────────────────────────────────────
+# Keep docker-compose files committed
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+*.rej
